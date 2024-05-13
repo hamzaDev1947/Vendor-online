@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0px;
+  scroll-behavior: smooth;
+
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1400px;
+  padding: 0 20px;
+}
+@font-face {
+  font-family:"Montserrat" ;
+  src: url('./font/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family:"Poppins" ;
+  src: url('./font/Poppins-Bold.ttf');
+}
+p{
+  font-family: Montserrat;
+  font-size: 14px;
+}
+pre{
+  font-family: Montserrat;
+  font-size: 14px;
+}
+li{
+  font-family: Montserrat;
+  font-size: 16px;
+}
+h1{
+  font-family: Poppins;
+  font-size: 48px;
+font-style: normal;
+font-weight: 600;
+}
+h3{
+  font-family: Montserrat;
+  font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px; 
+letter-spacing: 1.44px;
+}
+h5{
+  font-family: Montserrat;
+  font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+letter-spacing: 0.72px;
+}
+P{
+  font-size: 14px;
+}
+ul{
+  list-style: none;
+}
+.section2{
+  overflow: hidden;
+}
